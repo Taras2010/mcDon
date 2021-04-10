@@ -1,0 +1,72 @@
+P {
+
+color: rgb(255, 0, 0);
+ 
+background-color: rgb(0, 0, 0);
+
+font-size: 30px;
+}
+ 
+body {
+
+background-color: rgb(30, 255, 0);
+
+
+
+}
+ 
+.McB {
+
+color: red;
+font-size: 30px;
+
+}
+
+
+.McV {
+
+ color: yellow;
+ font-size: 30px;
+
+}
+
+
+
+.McR {
+
+
+color: white;
+font-size: 30px;
+
+}
+
+.tiles {
+    width: 600px;
+    font-size: 0;
+    margin: 0 auto;
+  }
+  
+  .tile {
+    width: calc(600px / 3);
+    display: inline-block;
+  }
+  
+  .tile h2 {
+    font-size: 20px;
+  }
+
+
+
+  .animated-fill-button {
+    padding: 20px;
+    background: #fff;
+    color: #000;
+    border: 1px solid #000;
+    cursor: pointer;
+    transition: 0.3s all ease-in-out;
+  }
+  
+  .animated-fill-button:hover {
+    background: #000;
+    color: #fff;
+  }
